@@ -1,0 +1,156 @@
+.home {
+  font-family:Kode Mono;
+  font-size: 16px;
+  cursor: pointer;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.link-text {
+  color: rgb(0, 113, 133);
+}
+
+.link-text:hover {
+  color: rgb(189, 97, 21);
+}
+
+.title-text {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.price-text {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+
+.cart-button {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  height: 30px;
+  width: 110px;
+  border-radius: 15px;
+  cursor: pointer;
+
+  margin-right: 10px;
+}
+
+.cart-button:hover {
+  background-color:rgba(233, 198, 23, 1);
+}
+
+.cart-button:active {
+  background-color:rgba(233, 198, 23, 0.6);
+  color:rgba(0, 0, 0, 0.6);
+}
+
+.purchase-button {
+  background-color: rgb(255, 164, 28);
+  border: none;
+  height: 30px;
+  width: 110px;
+  border-radius: 15px;
+  cursor: pointer;
+
+  margin-right: 10px;
+}
+
+.purchase-button:hover {
+  background-color: rgb(230, 164, 28);
+}
+
+.purchase-button:active {
+  background-color:rgba(230, 164, 28, 0.6);
+  color:rgba(0, 0, 0, 0.6);
+}
+
+.stretch-button {
+  background-color: green;
+  color: white;
+  border: none;
+
+  margin-top: 10px;
+
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  transition: padding 0.15s;
+
+}
+
+.stretch-button:hover {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.expand-button {
+  background-color: green;
+  color: white;
+  border: none;
+
+  margin-top: 10px;
+  margin-left: 6px;
+  margin-right: 6px;
+
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  transition: margin 0.15s, padding 0.15s;
+}
+
+.expand-button:hover {
+  margin-left: 2px;
+  margin-right: 2px;
+
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.stock {
+  font-family: Arial;
+  font-size: 28px;
+
+  margin-top: 50px;
+  margin-bottom: 4px;
+}
+
+.currency {
+  color: rgb(96, 96, 96);
+  font-size: 14px;
+}
+
+.today-delta-stock {
+  font-family: Arial;
+  color: green;
+  font-size: 14px;
+
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.after-stock {
+  font-family: Arial;
+  color: rgb(96, 96, 96);
+  font-size: 12px;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.after-delta-stock {
+  color: red;
+}
