@@ -1,4 +1,18 @@
+.home {
+  font-family:Kode Mono;
+  font-size: 16px;
+  cursor: pointer;
 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 /* 
 button is CSS Selector. Tells which element we're targeting
 targeting all button's on page and making bg-color red
