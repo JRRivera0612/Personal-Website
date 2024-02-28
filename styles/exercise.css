@@ -1,19 +1,3 @@
-.home {
-  font-family:Kode Mono;
-  font-size: 16px;
-  cursor: pointer;
-
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 .link-text {
   color: rgb(0, 113, 133);
 }
@@ -124,7 +108,7 @@
   font-family: Arial;
   font-size: 28px;
 
-  margin-top: 50px;
+  margin-top: 4px;
   margin-bottom: 4px;
 }
 
@@ -153,4 +137,228 @@
 
 .after-delta-stock {
   color: red;
+}
+
+.rounded-img {
+  width: 200px;
+  border-radius: 15px;
+}
+
+.centered-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+
+  margin-left: 15px;
+}
+
+.circle-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius:50px;
+
+  margin-left: 15px;
+}
+
+.x-box {
+  vertical-align: middle;
+  border-radius: 10px;
+  height: 50px;
+  width: 400px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+
+  margin-top: 15px;
+
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.x-circle-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  display: inline-block;
+
+  vertical-align: middle;
+}
+
+.x-text {
+  font-style: Arial;
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+
+  padding-right: 100px;
+}
+
+.tweet-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  transition: box-shadow 0.15s;
+}
+
+.tweet-button:hover {
+  /*shadow property. x position, y position, blur value, color */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.google-logo {
+  margin-left: 100px;
+  margin-top: 15px;
+  margin-bottom: 4px;
+}
+
+.google-search-bar {
+  width: 450px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+
+  display: block;
+
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+
+  margin-bottom: 30px;
+
+  padding-left: 15px;
+}
+
+.uber-text {
+  font-family: Arial;
+  font-size: 30px;
+
+  margin-bottom: 20px;
+}
+
+.uber-location {
+  background-color: rgb(231, 229, 229);
+  border: none;
+  height: 30px;
+  width: 350px;
+  font-size: 12px;
+
+  display: block;
+
+  margin-bottom: 5px;
+
+  padding-left: 15px;
+}
+
+.uber-destination {
+  background-color: rgb(231, 229, 229);
+  border: none;
+  height: 30px;
+  width: 350px;
+  font-size: 12px;
+
+  display: block;
+
+  margin-bottom: 20px;
+
+  padding-left: 15px;
+}
+
+.uber-request {
+  font: Arial;
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 110px;
+  border: none;
+
+  margin-right: 10px;
+
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.uber-request:active {
+  background-color: rgb(231, 229, 229);
+  color: black;
+}
+
+.uber-schedule {
+  font: Arial;
+  font-size: 12px;
+  background-color: rgb(231, 229, 229);
+  height: 40px;
+  width: 140px;
+  border: none;
+
+  margin-right: 10px;
+
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.uber-schedule:active {
+  background-color: black;
+  color: white;
+}
+
+.friend-box {
+  height: 230px;
+  width: 140px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+}
+
+.friend-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.friend-name {
+  font-weight: bold;
+
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+.friend-mutual {
+  color: gray;
+  font-size: 13px;
+
+  /*top right bottom left*/
+  margin: 4px 0px 0px 10px;
+}
+
+.friend-add {
+  background-color: rgb(96, 96, 253);
+  color: white;
+  font-size: 12px;
+  height: 30px;
+  width: 90px;
+  border: none;
+  border-radius: 3px;
+
+  margin: 5px 0px 0px 10px;
+
+  transition: background-color 0.15s, opacity 0.15s;
+}
+
+.friend-add:hover {
+  background-color: rgb(66, 66, 253);
+}
+
+.friend-add:active {
+  opacity: 0.8;
 }
