@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Discord Sidebar Exercise</title>
+
+    <style>
+      .servers-sidebar {
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        width: 70px;
+        background-color: rgb(33, 33, 33);
+        padding-top: 10px;
+        gap: 10px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .server-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+        cursor: pointer;
+      }
+
+      .channels-sidebar {
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        left: 70px;
+        width: 200px;
+        background-color: rgb(55, 55, 55);
+        display: flex;
+        flex-direction: column;
+      }
+
+      .channels-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 5px 10px 5px 20px;
+      }
+
+      .channels-header-text {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+      }
+
+      .channels-header-add {
+        color: gray;
+        background-color: rgb(55, 55, 55);
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+      }
+
+      .channel {
+        padding-left: 20px;
+        margin-bottom: 15px;
+        color: rgb(150, 150, 150);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        width: fit-content;
+        background-color: rgb(55, 55, 55);
+        border: none;
+        cursor: pointer;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="servers-sidebar">
+      <img class="server-icon" src="pictures/My-Neighbor-Totoro.jpg">
+      <img class="server-icon" src="pictures/no-face.jpg">
+      <img class="server-icon" src="pictures/kiki-sign.jpg">
+    </div>
+    <div class="channels-sidebar">
+      <div class="channels-header">
+        <div class="channels-header-text">INFO</div>
+        <button class="channels-header-add">+</button>
+      </div>
+      <button class="channel"># new-videos</button>
+      <button class="channel"># updates</button>
+      <button class="channel"># faq</button>
+    </div>
+  </body>
+</html>
