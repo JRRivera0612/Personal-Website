@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>warning</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        margin: 0;
+      }
+
+      .hex-code {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-size: 10vh;
+        font-weight: 700;
+        font-family: "Exo 2", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="js-hex-code hex-code"></div>
+    <script>
+      const hexColor = '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0');
+      console.log(hexColor);
+
+      document.body.style.backgroundColor = `${hexColor}`;
+      document.querySelector('.js-hex-code').innerText = hexColor;
+    </script>
+  </body>
+</html>
