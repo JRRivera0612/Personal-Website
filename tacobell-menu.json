@@ -1,0 +1,148 @@
+{
+  "menu":[
+    {
+        "item":"Cheesy Roll Up",
+        "price":"1.50"
+    },
+	{
+        "item":"Spicy Potato Soft Taco",
+        "price":"1.50"
+    },
+	{
+        "item":"Cheesy Bean and Rice Burrito",
+        "price":"1.69"
+    },
+	{
+        "item":"Double Stacked Taco",
+        "price":"1.99"
+    },
+	{
+        "item":"Stacker",
+        "price": "2.19"
+    },
+	{
+        "item":"3 Cheese Chicken Flatbread Melt",
+        "price":"2.50"
+    },
+	{
+        "item":"Cheesy Fiesta Potatoes",
+        "price":"2.59"
+    },
+	{
+        "item":"Chicken Enchilada Burrito",
+        "price":"3.00"
+    },
+	{
+        "item":"Cheesy Double Beef Burrito",
+        "price":"3.00"
+    },
+	{
+        "item":"Loaded Beef Nachos",
+        "price":"3.00"
+    },
+	{
+        "item":"Soft Taco",
+        "price":"1.79"
+    },
+	{
+        "item":"Soft Taco Supreme",
+        "price":"2.89"
+    },
+	{
+        "item":"Crunchy Taco",
+        "price":"1.79"
+    },
+	{
+        "item":"Crunchy Taco Supreme",
+        "price":"2.89"
+    },
+	{
+        "item":"Nacho Cheese Doritos Locos Tacos",
+        "price":"2.99"
+    },
+	{
+        "item":"Nacho Cheese Doritos Locos Tacos Supreme",
+        "price":"3.79"
+    },
+	{
+        "item":"Chalupa Supreme",
+        "price":"4.79"
+    },
+	{
+        "item":"Black Bean Chalupa Supreme",
+        "price":"4.59"
+    },
+	{
+        "item":"Cheesy Gordita Crunch",
+        "price":"4.89"
+    },
+	{
+        "item":"Doritos Cheesy Gordita Crunch - Nacho Cheese",
+        "price":"4.99"
+    },
+	{
+        "item":"Grilled Cheese Burrito",
+        "price":"5.19"
+    },
+	{
+        "item":"Black Bean Grilled Cheese Burrito",
+        "price":"5.19"
+    },
+	{
+        "item":"Bean Burrito",
+        "price":"1.89"
+    },
+	{
+        "item":"Beefy 5-Layer Burrito",
+        "price":"4.39"
+    },
+	{
+        "item":"Burrito Supreme",
+        "price":"5.09"
+    },
+	{
+        "item":"Cheesy Bean and Rice Burrito",
+        "price":"1.69"
+    },
+	{
+        "item":"Cheesy Chicken Crispanada",
+        "price":"3.79"
+    },
+	{
+        "item":"Mexican Pizza",
+        "price":"5.59"
+    },
+	{
+        "item":"Veggie Mexican Pizza",
+        "price":"5.39"
+    },
+	{
+        "item":"Crunchwrap Supreme",
+        "price":"5.99"
+    },
+	{
+        "item":"Black Bean Crunchwrap Supreme",
+        "price":"5.19"
+    },
+	{
+        "item":"Chicken Quesadilla",
+        "price":"5.49"
+    },
+	{
+        "item":"Steak Quesadilla",
+        "price":"5.89"
+    },
+	{
+        "item":"Cheese Quesadilla",
+        "price":"4.59"
+    },
+	{
+        "item":"Nachos BellGrande",
+        "price":"6.49"
+    },
+	{
+        "item":"Chips and Nacho Cheese Sauce",
+        "price":"2.39"
+    }
+  ]
+}

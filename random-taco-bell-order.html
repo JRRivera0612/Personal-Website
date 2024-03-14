@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Order</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        margin: 0;
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 2vh;
+
+        background-color: #2e2f2f;
+        color: #acbdba;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-evenly;
+        justify-items: center;
+        align-content: space-evenly;
+        align-items: center;
+        
+        height: 90vh;
+        margin: 0;
+      }
+
+      .inner-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .item-header {
+        color: #a599b5;
+      }
+
+      .total-cost {
+        display: flex;
+        align-items: top;
+        justify-content: center;
+        height: 10vh;
+        margin: 0;
+
+        color: #CDDDDD;
+      }
+
+      .warning-text {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        color: rgb(192, 1, 1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-container">
+        <p class="item-header">Item 1</p>
+        <div class="js-item1 item1"></div>
+      </div>
+      <div class="inner-container">
+        <p class="item-header">Item 2</p>
+        <div class="js-item2 item2"></div>
+      </div>
+      <div class="inner-container">
+        <p class="item-header">Item 3</p>
+        <div class="js-item3 item3"></div>
+      </div>
+      <div class="inner-container">
+        <p class="item-header">Item 4</p>
+        <div class="js-item4 item4"></div>
+      </div>
+    </div>
+    <div class="js-total-cost total-cost"></div>
+    <div class="warning-text">* does not include taxes</div>
+    <script>
+      document.querySelector('.js-item1').innerText = 'Item 1'
+      document.querySelector('.js-item2').innerText = 'Item 2'
+      document.querySelector('.js-item3').innerText = 'Item 3'
+      document.querySelector('.js-item4').innerText = 'Item 4'
+
+      fetch('tacobell-menu.json').then(function (response) {
+        return response.json();
+      }).then(function (obj) {
+        console.log(obj);
+        let total = 0;
+
+        for (let i = 0; i < 4; i++) {
+          const randomItemNumber = Math.floor(Math.random() * obj.menu.length);
+          document.querySelector(`.js-item${i+1}`).innerText = obj.menu[`${randomItemNumber}`].item;
+          total += Number(obj.menu[`${randomItemNumber}`].price) * 100;
+        }
+        document.querySelector('.js-total-cost').innerText = '$' + (total / 100);
+      }).catch(function (error) {
+        console.error('Something went wrong with retrieving the menu');
+        console.error(error);
+      })
+
+    </script>
+  </body>
+</html>
